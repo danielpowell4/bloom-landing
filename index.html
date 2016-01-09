@@ -23,7 +23,7 @@
       text-align: center;
       margin: 0 auto;
       text-decoration: none;
-      font-size: 1.5em;
+      font-size: 1.5rem;
     }
 
     a:hover{
@@ -33,6 +33,16 @@
 
     p {
       font-size: 14px;
+    }
+
+    @media screen and (max-width: 800px) #write-up {
+      #write-up, h4, a {
+          max-width: 560px;
+          width: 60%;
+          min-width: 300px;
+          font-size: 1rem;
+      }
+
     }
     /* SVG CSS magic */
     .text {
