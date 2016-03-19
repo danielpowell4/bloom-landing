@@ -6,17 +6,22 @@ height: 100%;
 min-height: 444px;
 }
 
-body, a {
+body {
 background: #fcfcfc;
 font: 1em "co-headline", sans-serif;
 color: #432;
 }
 
-h4, a {
+h4 {
   font-family: "co-headline", sans-serif;
   text-align: center;
   margin: 0 auto;
   text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #432;
 }
 
 a:hover{
@@ -26,6 +31,9 @@ a:hover{
 
 p {
   font-size: 14px;
+  font-family: helvetica, arial, sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
 }
 
 .writeUp{
